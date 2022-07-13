@@ -7,7 +7,7 @@ Some code examples of tests (or lack thereof) that I have come across.
 
 1. Run your tests
 
-2. In order for your tests to be useful, you have to run them.
+In order for your tests to be useful, you have to run them.
 
 I've found tests that had not been run for years (!) for any number of reasons.
 
@@ -48,4 +48,6 @@ Find some examples in package `meaningful_names`.
 If a test tests multiple things in a row, this means that if the first thing fails, we don't know if the other things still work.
 
 Separate the test into multiple smaller tests that each pinpoint exactly what is wrong when they fail.
+
+Find an example in package `one_thing`.
 

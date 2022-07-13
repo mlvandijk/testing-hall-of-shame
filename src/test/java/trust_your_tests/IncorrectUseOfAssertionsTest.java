@@ -7,7 +7,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 class IncorrectUseOfAssertionsTest {
 
     /*
-    * As IntelliJ will tell you here, the result of assertThat() is ignored.
+    * As IntelliJ IDEA will tell you here, the result of assertThat() is ignored.
     * This test will never fail.
     */
     @Test

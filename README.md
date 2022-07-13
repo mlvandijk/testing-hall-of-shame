@@ -29,3 +29,16 @@ Analysing test failures takes time.
 You want to limit that time by having tests that clearly and quickly tell you what the problem is, so you can get on with fixing it.
 
 Find some examples of tests that do not provide clear information when failing in package `failures`.
+
+4. Use meaningful names
+
+The name of a test should tell us what the goal of the test is.
+
+It is also a great place to add information about the intended behavior of your application, that you cannot capture in code.
+
+For example, rather than telling us what the application should do, you could add information on why it should work that way.
+
+This will help us analyse failure. For example, it can help us determine whether a failure means we broke something, 
+or whether functionality should be updated in line with new features.
+
+Find some examples in package `meaningful_names`.

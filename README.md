@@ -10,4 +10,7 @@ In order for your tests to be useful, you have to run them.
 
 I've found tests that had not been run for years (!) for any number of reasons.
 
-Find the examples in package `run_your_tests`
+Find the examples in package `run_your_tests`. Some are quite creative.
+
+Note: If you absolutely HAVE to disable a test, use the proper annotation AND give a reason.
+

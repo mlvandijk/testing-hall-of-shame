@@ -42,3 +42,10 @@ This will help us analyse failure. For example, it can help us determine whether
 or whether functionality should be updated in line with new features.
 
 Find some examples in package `meaningful_names`.
+
+5. Each test should test only one thing. 
+
+If a test tests multiple things in a row, this means that if the first thing fails, we don't know if the other things still work.
+
+Separate the test into multiple smaller tests that each pinpoint exactly what is wrong when they fail.
+

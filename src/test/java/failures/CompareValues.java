@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-class Failure1 {
+class CompareValues {
 
     /*
     * While the test below fails when comparing values, the result does not provide as much information as it could.

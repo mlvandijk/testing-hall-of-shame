@@ -10,7 +10,3 @@
 //    }
 //}
 //
-/*
-//* Please don't do this.
-//* In this case it's probably best to delete the code.
-//*/

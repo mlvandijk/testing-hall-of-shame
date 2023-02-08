@@ -1,4 +1,4 @@
-package failures;
+package trust_your_tests;
 
 import org.junit.jupiter.api.Test;
 

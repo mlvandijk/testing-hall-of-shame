@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Test;
 
 class MeaningfulNamesTest {
 
-
     /*
     * The test scenarios below do not tell us anything about what is being tested or why.
     * They provide no information of how the system should behave.

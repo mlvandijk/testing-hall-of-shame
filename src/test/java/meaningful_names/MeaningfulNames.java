@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 class MeaningfulNamesTest {
 
-    /*
+    /**
     * The test scenarios below do not tell us anything about what is being tested or why.
     * They provide no information of how the system should behave.
     */
@@ -34,7 +34,7 @@ class MeaningfulNamesTest {
 
 
 
-    /*
+    /**
      * While the test below is marginally better,
      * it still doesn't provide us with information about why we expect a certain result.
      */
@@ -45,7 +45,7 @@ class MeaningfulNamesTest {
     }
 
 
-    /*
+    /**
      * This is even better as we can see what the expected output is.
      * There are many details that can be added; what is relevant might depend on your context.
      */

@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class OneThingTest {
 
-    /*
+    /**
     * The test below tests multiple things in a row.
     */
     @Test
@@ -33,11 +33,11 @@ class OneThingTest {
 
 
 
-    /*
+    /**
      * Split the test into multiple individual tests.
      * 1. If they fail, they don't block testing the rest of the behavior.
-     * 2. If they fail, you know exactly what fails
-     * 3. Each test has a more meaningful name; together they provide an overview of intended behavior
+     * 2. If they fail, you know exactly what fails.
+     * 3. Each test has a more meaningful name; together they provide an overview of intended behavior.
      */
     @Test
     void emptyArrayShouldBeEmpty() {

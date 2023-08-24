@@ -15,7 +15,7 @@ class OneThingTest {
     */
     @Test
     void testsMultipleThingsInARow() {
-        List<String> things = new ArrayList<String>();
+        List<String> things = new ArrayList<>();
         assertTrue(things.isEmpty());
         things.add("a string");
         assertEquals(1, things.size());
@@ -41,20 +41,20 @@ class OneThingTest {
      */
     @Test
     void emptyArrayShouldBeEmpty() {
-        List<String> things = new ArrayList<String>();
+        List<String> things = new ArrayList<>();
         assertTrue(things.isEmpty());
     }
 
     @Test
     void arrayWithOneItemShouldHaveSize1() {
-        List<String> things = new ArrayList<String>();
+        List<String> things = new ArrayList<>();
         things.add("a string");
         assertEquals(1, things.size());
     }
 
     @Test
     void arrayWithMultipleItemsShouldHaveSize2() {
-        List<String> things = new ArrayList<String>();
+        List<String> things = new ArrayList<>();
         things.add("a different string");
         things.add("another string");
         assertEquals(2, things.size());
